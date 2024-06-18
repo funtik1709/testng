@@ -1,33 +1,25 @@
 package testcase;
 
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MyFirstTest {
+import base.BaseTest;
+
+public class MyFirstTest extends BaseTest {
 
 	@SuppressWarnings("deprecation")
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {		
 //		WebDriverManager.chromedriver().setup();
 		
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver/chromedriver.exe");
-		
-		WebDriver driver = new ChromeDriver();
-		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(15, TimeUnit.SECONDS);
+	      driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+	      driver.manage().timeouts().setScriptTimeout(15, TimeUnit.SECONDS);
 		
-		 driver.manage().window().maximize();
-
-	        driver.get("https://tekmetest.ddirection.kz/");        
+		
+		 driver.manage().window().maximize();	               
 
 	        WebElement link_doctors = driver.findElement(By.xpath("//*[@id=\"__nuxt\"]/div/header/div[1]/nav/ul/li[2]/a"));
 	        link_doctors.click();
@@ -118,6 +110,8 @@ public class MyFirstTest {
 	        //submit_files
 	        WebElement submit_files = driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/form/div[4]/button"));
 	        submit_files.click();
+		
+		
 	}
 
 }
