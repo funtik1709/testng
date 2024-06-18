@@ -12,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MyFirstTest {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		WebDriverManager.chromedriver().setup();
@@ -65,7 +66,7 @@ public class MyFirstTest {
 
 	        //email
 	        WebElement  email = driver.findElement(By.xpath("//*[@id=\"email\"]"));
-	        email.sendKeys("demetrice.thurman@floodouts.com");
+	        email.sendKeys("jakoda.abaan@floodouts.com");
 
 	        //b_date
 	        WebElement  b_date = driver.findElement(By.xpath("//*[@id=\"date_birthdate\"]"));
