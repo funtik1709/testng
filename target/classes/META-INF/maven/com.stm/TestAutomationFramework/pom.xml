@@ -5,6 +5,7 @@
 	<groupId>com.stm</groupId>
 	<artifactId>TestAutomationFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 
 	<dependencies>
 		<!--

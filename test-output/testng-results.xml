@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-18T14:27:43 ALMT" name="Default suite" finished-at="2024-06-18T14:27:54 ALMT" duration-ms="11121">
+  <suite started-at="2024-06-19T10:12:50 ALMT" name="Default suite" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="16230">
     <groups>
     </groups>
-    <test started-at="2024-06-18T14:27:43 ALMT" name="Default test" finished-at="2024-06-18T14:27:54 ALMT" duration-ms="11121">
-      <class name="testcase.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@31368b99]" started-at="2024-06-18T14:27:43 ALMT" name="setUp" finished-at="2024-06-18T14:27:48 ALMT" duration-ms="4700" status="PASS">
+    <test started-at="2024-06-19T10:12:50 ALMT" name="Default test" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="16230">
+      <class name="testcase.MyFirsTestFW">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirsTestFW@31368b99]" started-at="2024-06-19T10:12:50 ALMT" name="setUp" finished-at="2024-06-19T10:12:54 ALMT" duration-ms="3725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login()[pri:0, instance:testcase.LoginTest@31368b99]" started-at="2024-06-18T14:27:48 ALMT" name="Login" finished-at="2024-06-18T14:27:54 ALMT" duration-ms="6395" status="PASS">
+        <test-method signature="RegisterTest()[pri:0, instance:testcase.MyFirsTestFW@31368b99]" started-at="2024-06-19T10:12:54 ALMT" name="RegisterTest" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="12477" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- testcase.LoginTest -->
+        </test-method> <!-- RegisterTest -->
+      </class> <!-- testcase.MyFirsTestFW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

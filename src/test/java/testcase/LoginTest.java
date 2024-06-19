@@ -11,13 +11,14 @@ public class LoginTest extends BaseTest {
 	@Test
 	public static void  Login() throws InterruptedException {
 		
-		driver.findElement(By.xpath("//*[text()='Личный кабинет']")).click();
+		driver.findElement(By.xpath(loc.getProperty("signin_link"))).click();
 		Thread.sleep(3000);
+		System.out.println(loc.getProperty("signin_link"));
 		
-		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(prop.getProperty("login_email"));
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(prop.getProperty("login_password"));
+		driver.findElement(By.id(loc.getProperty("email_field"))).sendKeys(prop.getProperty("login_email"));
+		driver.findElement(By.id(loc.getProperty("password_field"))).sendKeys(prop.getProperty("login_password"));
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//*[@id=\"modal1\"]/div/form/div[3]/button")).click();
+		driver.findElement(By.xpath(loc.getProperty("login_button"))).click();		
 		
 	}	
 		
