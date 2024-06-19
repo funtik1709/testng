@@ -45,11 +45,11 @@ public class BaseTest {
 		
 	}
 	
-//	@AfterTest
-//	public void tearDown() {
-//		driver.close();
-//		System.out.println("Teardown successful");
-//		
-//	}
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+		System.out.println("Teardown successful");
+		
+	}
 	
 }

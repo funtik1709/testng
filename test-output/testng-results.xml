@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T10:12:50 ALMT" name="Default suite" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="16230">
+  <suite started-at="2024-06-19T13:17:39 ALMT" name="Register and login" finished-at="2024-06-19T13:18:04 ALMT" duration-ms="24890">
     <groups>
     </groups>
-    <test started-at="2024-06-19T10:12:50 ALMT" name="Default test" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="16230">
-      <class name="testcase.MyFirsTestFW">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirsTestFW@31368b99]" started-at="2024-06-19T10:12:50 ALMT" name="setUp" finished-at="2024-06-19T10:12:54 ALMT" duration-ms="3725" status="PASS">
+    <test started-at="2024-06-19T13:17:39 ALMT" name="Login" finished-at="2024-06-19T13:17:49 ALMT" duration-ms="9440">
+      <class name="testcase.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@3911c2a7]" started-at="2024-06-19T13:17:39 ALMT" name="setUp" finished-at="2024-06-19T13:17:42 ALMT" duration-ms="2877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="RegisterTest()[pri:0, instance:testcase.MyFirsTestFW@31368b99]" started-at="2024-06-19T10:12:54 ALMT" name="RegisterTest" finished-at="2024-06-19T10:13:06 ALMT" duration-ms="12477" status="PASS">
+        <test-method signature="Login()[pri:0, instance:testcase.LoginTest@3911c2a7]" started-at="2024-06-19T13:17:42 ALMT" name="Login" finished-at="2024-06-19T13:17:49 ALMT" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@3911c2a7]" started-at="2024-06-19T13:17:49 ALMT" name="tearDown" finished-at="2024-06-19T13:17:49 ALMT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2024-06-19T13:17:49 ALMT" name="Register" finished-at="2024-06-19T13:18:04 ALMT" duration-ms="15392">
+      <class name="testcase.MyFirsTestFW">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirsTestFW@55b7a4e0]" started-at="2024-06-19T13:17:49 ALMT" name="setUp" finished-at="2024-06-19T13:17:52 ALMT" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterTest()[pri:0, instance:testcase.MyFirsTestFW@55b7a4e0]" started-at="2024-06-19T13:17:52 ALMT" name="RegisterTest" finished-at="2024-06-19T13:18:04 ALMT" duration-ms="12454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirsTestFW@55b7a4e0]" started-at="2024-06-19T13:18:04 ALMT" name="tearDown" finished-at="2024-06-19T13:18:04 ALMT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testcase.MyFirsTestFW -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Register -->
+  </suite> <!-- Register and login -->
 </testng-results>
