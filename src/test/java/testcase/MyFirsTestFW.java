@@ -1,6 +1,7 @@
 package testcase;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -11,10 +12,13 @@ import base.BaseTest;
 
 public class MyFirsTestFW extends BaseTest {
 	
+	private static String edge;
+	private static String firefox;
+
 	@Test
 	public static void  RegisterTest() throws InterruptedException
 	{
-		
+		driver.manage().window().maximize();
 			
 		 WebElement link_doctors = driver.findElement(By.xpath("//*[text()='Для врачей']"));
 	     link_doctors.click();
@@ -57,10 +61,23 @@ public class MyFirsTestFW extends BaseTest {
 	        //email
 	        WebElement  email = driver.findElement(By.xpath("//*[@id=\"email\"]"));
 	        email.sendKeys(prop.getProperty("reg_email"));
-
+    
+              
+	        String browserName = (loc.getProperty("browser"));
+	        
 	        //b_date
-	        WebElement  b_date = driver.findElement(By.xpath("//*[@id=\"date_birthdate\"]"));
-	        b_date.sendKeys("19-04-1987");
+	        
+            //edge
+//	        WebElement  b_date = driver.findElement(By.xpath("//*[@id=\"date_birthdate\"]"));
+//		    b_date.sendKeys("12-07-1990");
+	        
+	        //chrome and firefox
+        	WebElement  b_date = driver.findElement(By.xpath("//*[@id=\"date_birthdate\"]"));
+	        b_date.sendKeys("1987-07-15");
+	        
+    	    
+	       
+	        
 
 	        //select_region
 	        Select select_region = new Select(driver.findElement(By.xpath("//*[@id=\"area_id\"]")));
