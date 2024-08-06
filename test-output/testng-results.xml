@@ -1,157 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T10:12:18 ALMT" name="Default suite" finished-at="2024-07-23T10:13:33 ALMT" duration-ms="75054">
+  <suite started-at="2024-08-05T17:14:58 ALMT" name="Default suite" finished-at="2024-08-05T17:16:04 ALMT" duration-ms="65656">
     <groups>
     </groups>
-    <test started-at="2024-07-23T10:12:18 ALMT" name="Default test" finished-at="2024-07-23T10:13:33 ALMT" duration-ms="75054">
-      <class name="testcase.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:19 ALMT" name="setUp" finished-at="2024-07-23T10:12:25 ALMT" duration-ms="6004" status="PASS">
+    <test started-at="2024-08-05T17:14:58 ALMT" name="Default test" finished-at="2024-08-05T17:16:04 ALMT" duration-ms="65656">
+      <class name="testcase.HomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:14:58 ALMT" name="setUp" finished-at="2024-08-05T17:15:05 ALMT" duration-ms="6262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:25 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:12:32 ALMT" duration-ms="6902" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[citaf36963@acuxi.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa12345678]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Advantages()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:05 ALMT" name="Advantages" finished-at="2024-08-05T17:15:08 ALMT" duration-ms="3162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:32 ALMT" name="tearDown" finished-at="2024-07-23T10:12:33 ALMT" duration-ms="902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:33 ALMT" name="setUp" finished-at="2024-07-23T10:12:37 ALMT" duration-ms="4411" status="PASS">
+        </test-method> <!-- Advantages -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:08 ALMT" name="setUp" finished-at="2024-08-05T17:15:12 ALMT" duration-ms="4452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:37 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:12:44 ALMT" duration-ms="6890" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pehhtr@ad.ri]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa12345678]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="FAQ()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:12 ALMT" name="FAQ" finished-at="2024-08-05T17:15:15 ALMT" duration-ms="2840" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:44 ALMT" name="tearDown" finished-at="2024-07-23T10:12:45 ALMT" duration-ms="810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:45 ALMT" name="setUp" finished-at="2024-07-23T10:12:49 ALMT" duration-ms="4146" status="PASS">
+        </test-method> <!-- FAQ -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:15 ALMT" name="setUp" finished-at="2024-08-05T17:15:19 ALMT" duration-ms="4258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:49 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:12:56 ALMT" duration-ms="6887" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[erkejan.amanjolovna@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Qwerty123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="HomepageSmokeTest()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:19 ALMT" name="HomepageSmokeTest" finished-at="2024-08-05T17:15:20 ALMT" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:56 ALMT" name="tearDown" finished-at="2024-07-23T10:12:57 ALMT" duration-ms="916" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:12:57 ALMT" name="setUp" finished-at="2024-07-23T10:13:01 ALMT" duration-ms="4484" status="PASS">
+        </test-method> <!-- HomepageSmokeTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:20 ALMT" name="setUp" finished-at="2024-08-05T17:15:25 ALMT" duration-ms="4510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:01 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:13:08 ALMT" duration-ms="6868" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[g1391081@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa12345678]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="HowItWorks()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:25 ALMT" name="HowItWorks" finished-at="2024-08-05T17:15:28 ALMT" duration-ms="3035" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:08 ALMT" name="tearDown" finished-at="2024-07-23T10:13:09 ALMT" duration-ms="833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:09 ALMT" name="setUp" finished-at="2024-07-23T10:13:13 ALMT" duration-ms="4362" status="PASS">
+        </test-method> <!-- HowItWorks -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:28 ALMT" name="setUp" finished-at="2024-08-05T17:15:32 ALMT" duration-ms="4194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:13 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:13:20 ALMT" duration-ms="6858" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wafoh44582@dovesilo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa12345678]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="MenuLinksTest()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:32 ALMT" name="MenuLinksTest" finished-at="2024-08-05T17:15:33 ALMT" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:20 ALMT" name="tearDown" finished-at="2024-07-23T10:13:21 ALMT" duration-ms="943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:21 ALMT" name="setUp" finished-at="2024-07-23T10:13:25 ALMT" duration-ms="4107" status="PASS">
+        </test-method> <!-- MenuLinksTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:33 ALMT" name="setUp" finished-at="2024-08-05T17:15:37 ALMT" duration-ms="4408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:25 ALMT" name="Login" data-provider="bvtdata" finished-at="2024-07-23T10:13:32 ALMT" duration-ms="6894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vohar48086@dacgu.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa12345678]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="docList()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:37 ALMT" name="docList" finished-at="2024-08-05T17:15:40 ALMT" duration-ms="3002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@7ed7259e]" started-at="2024-07-23T10:13:32 ALMT" name="tearDown" finished-at="2024-07-23T10:13:33 ALMT" duration-ms="818" status="PASS">
+        </test-method> <!-- docList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:40 ALMT" name="setUp" finished-at="2024-08-05T17:15:45 ALMT" duration-ms="4479" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcase.LoginTest -->
+        </test-method> <!-- setUp -->
+        <test-method signature="footerText()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:45 ALMT" name="footerText" finished-at="2024-08-05T17:15:46 ALMT" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:46 ALMT" name="setUp" finished-at="2024-08-05T17:15:50 ALMT" duration-ms="4312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="langSwitcherTest()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:50 ALMT" name="langSwitcherTest" finished-at="2024-08-05T17:15:51 ALMT" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- langSwitcherTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:51 ALMT" name="setUp" finished-at="2024-08-05T17:15:56 ALMT" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginButtonTest()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:56 ALMT" name="loginButtonTest" finished-at="2024-08-05T17:15:59 ALMT" duration-ms="3222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:15:59 ALMT" name="setUp" finished-at="2024-08-05T17:16:03 ALMT" duration-ms="4459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoCheck()[pri:0, instance:testcase.HomepageTest@3427b02d]" started-at="2024-08-05T17:16:03 ALMT" name="logoCheck" finished-at="2024-08-05T17:16:04 ALMT" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheck -->
+      </class> <!-- testcase.HomepageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

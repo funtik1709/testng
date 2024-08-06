@@ -3,14 +3,20 @@
 
 
 <suite name="Register and login">
-  <test thread-count="5" name="Login">
-    <classes>
-	  <class name="testcase.LoginTest"/>            
+  
+  <test thread-count="5" name="DoctorRegister">
+    <classes>	    
+      <class name="testcase.DoctorRegister"/>      
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Register">
+  <test thread-count="5" name="PatientRegister">
     <classes>	    
-      <class name="testcase.MyFirsTestFW"/>      
+      <class name="testcase.PatientRegister"/>      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="LoginTest">
+    <classes>
+	  <class name="testcase.LoginTest"/>            
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

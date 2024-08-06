@@ -8,7 +8,7 @@ import base.BaseTest;
 import utilities.ReadXLSdata;
 
 public class LoginTest extends BaseTest {
-	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="bvtdata")
+	@Test(dataProviderClass = ReadXLSdata.class, dataProvider = "bvtdata")
 	public static void Login(String username, String password) throws InterruptedException {
 		driver.manage().window().maximize();
 
@@ -27,8 +27,5 @@ public class LoginTest extends BaseTest {
 		driver.findElement(By.xpath(loc.getProperty("login_button"))).click();
 
 	}
-
-	
-	
 
 }
